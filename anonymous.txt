@@ -1,0 +1,110 @@
+1)Fix the code to gen Title caps.Anonymous function
+
+Code:
+
+var arr = ["mango, "green, "blue", "rose"];
+var ano = function(arro) {
+ for (var i = 0; i <= arro.length; i++) {
+ console.log(arro[i][0].toUpperCase() + arro[i].substr(1));
+ }
+}
+ano();
+
+
+2) print all odd numbers in an array using Annonymus function
+
+var arr = [1, 2, 3, 5, 7, 79, 7, 2, 6, 9, 4];
+var res=function(arro) {
+ for (var i = 0; i < arr.length; i++) {
+ if (arr[i] % 2 !==0) {
+ console.log(arr[i]);
+ }}
+}
+res();
+
+3)Fix the code to Sum of all numbers using Anonymus function
+const arr = [9,8,5,6,4,3,2,1];
+let res=function() {
+ let sum = 0;
+ for (var i = 0; i <= arr.length; i++);{
+ sum += arr[i];
+ }
+ console.log(sum);
+ return sum;
+}
+res();
+4) Fix the code to rotate an array by k times and return rotated array using ANONYMUS function
+Code:
+
+var arr = [1, 2, 3, 6, 8, 6, 1, 9, 10, 12, 13];
+var k = 3;
+k = arr.length % k;
+let res=function() {
+ arr = {};
+ out = arr.slice(k + 1, arr.length);
+ var count = out.length;
+ for (var i = 0; i < k + 1; i++) {
+ out[count] = arr[i];
+ count += 1;
+ }
+ console.log(out);
+res();
+
+5 Fix the code to remove duplicates using Anonymous function
+var arr=["mango","mango""green"];
+var res = function(arr){
+ for(var i=0; i < arr.length; i++){
+ newArr = [];
+ if(newArr.indexOf(arr[i]) == -1) {
+ newArr.push(arr[i]);
+ } }
+ console.log(newArr)
+}
+res()
+
+
+ 6)PALINDROME using Anonymous function
+   const input = ['Hello', 'world', 'level', 'tenet', 'mom'];
+   const outputArr = [];
+ 
+(() = {
+//       const rev = value.split('').reverse().join('');
+//       if(value == rev) {
+//           outputArr.push(value);
+//       } 
+//   })('level');
+ for(let i = 0; i < input.length; i++) {
+       if(input[i]) {
+           findPalindrome(input[i])
+       }
+   }
+   console.log(outputArr);
+
+
+7)PRIME NUMBER using Anonymous function
+const newArray=[1,3,2,5,10];
+const myPrime=function(newArray.filter){
+ for(let i=2;i<=num;i++){
+ if(num%i===0)
+ {
+ return true;
+ }
+ }
+ return num===1;
+};
+console.log(myPrime);
+
+8)Sort two array of same size and find median using Anonymous function
+
+var arr1 = [1, 5, 3, 8, 9].sort((a, b) => a - b);
+var arr2 = [9, 6, 8, 3, 2].sort((a, b) => a - b);
+var res=function(){
+console.log(5/2);
+console.log(Math.ceil(5/2)); // Celing
+console.log(Math.floor(5/2)); // floor
+var center = Math.floor(arr1.length/2);
+});
+console.log((arr1[center] + arr2[center]) / 2) 
+
+
+
